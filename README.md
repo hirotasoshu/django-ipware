@@ -161,7 +161,7 @@ for the originating client IP address is the `left-most` as per `<client>, <prox
 
 By default, `django-ipware` use strict `python-ipware` mode (read mode about it [here](https://github.com/un33k/python-ipware/tree/main?tab=readme-ov-file#proxy-count--trusted-proxy-list-combo)).
 
-You can set it non-strict by either setting the `IPWARE_STRICT` to `False` at your project's `settings.py`` or by calling `get_client_ip` with strict=False:
+You can set it non-strict by either setting the `IPWARE_STRICT` to `False` at your project's `settings.py` or by calling `get_client_ip` with strict=False:
 
 ```python
 get_client_ip(request, strict=False)
